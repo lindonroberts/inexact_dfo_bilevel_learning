@@ -1,0 +1,49 @@
+{
+    "description": "generic denoising 1-param solve",
+    "dfols": {
+        "dynamic_accuracy": false,
+        "fixed_niters": 1000,
+        "maxevals": 20,
+        "params": {
+            "logging.save_diagnostic_info": true,
+            "logging.save_rk": true,
+            "logging.save_xk": true,
+            "noise.quit_on_noise_level": false,
+            "restarts.use_restarts": false,
+            "slow.max_slow_iters": 20
+        },
+        "rhoend": 1e-06,
+        "slow_tr_decrease": false
+    },
+    "problem": {
+        "log10_alpha": {
+            "init": -1.0,
+            "max": 7.0,
+            "min": -7.0
+        },
+        "lower_level_algorithm": "gd",
+        "noise_level": 0.1,
+        "npixels": 256,
+        "num_training_data": 10,
+        "type": "denoising1d_1param",
+        "verbose": true
+    },
+    "runtime_wall": 12.027753,
+    "seed": 0,
+    "solution": {
+        "diagnostic_info_file": "1param_startm1_budget20_gd_fixed_niters_1000_diagnostic_info.pkl",
+        "eval_info_outfile": "1param_startm1_budget20_gd_fixed_niters_1000_evals.pkl",
+        "f": 1.3973112650975543,
+        "flag": 0,
+        "message": "Success: rho has reached rhoend",
+        "nf": 20,
+        "noisy_img_outfile": "1param_startm1_budget20_gd_fixed_niters_1000_noisy_imgs.npy",
+        "recon_img_outfile": "1param_startm1_budget20_gd_fixed_niters_1000_recons.npy",
+        "true_img_outfile": "1param_startm1_budget20_gd_fixed_niters_1000_true_imgs.npy",
+        "xmin": {
+            "0": 0.04999999999999982
+        }
+    },
+    "time_end": "2020-05-20 11:31:32",
+    "time_start": "2020-05-20 11:31:20"
+}

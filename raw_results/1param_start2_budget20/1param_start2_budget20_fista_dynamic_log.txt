@@ -1,0 +1,79 @@
+Running problem type denoising1d_1param
+Setting random seed = 0
+Training data: 10 images (size 256) with noise level 0.1
+Using lower-level solver fista
+Running DFO-LS with dynamic accuracy
+
+Starting DFO-LS at 2020-05-20 11:29:03:
+x0 = [2.]
+xmin = [-7.]
+xmax = [7.]
+Budget = 20 evaluations
+Rhoend = 1e-06
+
+Function eval 1 at point 1 has f = 798.954068590504 [r(x) entrywise error 0.1, f error 17.9768] at x = [2.]
+Initialising (coordinate directions)
+Function eval 2 at point 2 has f = 1036.04884806858 [r(x) entrywise error 0.1, f error 20.4573] at x = [3.4]
+Beginning main loop
+Dynamic accuracy: xk eval tolerance 0.1 above required tolerance 0.0565943, re-evaluating
+Function eval 3 at point 3 has f = 796.596373307875 [r(x) entrywise error 0.0560302, f error 10.033] at x = [2.]
+Function eval 4 at point 4 has f = 12.104524285097 [r(x) entrywise error 0.0501414, f error 1.12846] at x = [0.6]
+Dynamic accuracy: xk eval tolerance 0.0501414 above required tolerance 0.0261989, re-evaluating
+Function eval 5 at point 5 has f = 11.6713105423338 [r(x) entrywise error 0.02594, f error 0.567208] at x = [0.6]
+Dynamic accuracy: xk eval tolerance 0.02594 above required tolerance 0.0257004, re-evaluating
+Function eval 6 at point 6 has f = 11.66339878324 [r(x) entrywise error 0.0254464, f error 0.556103] at x = [0.6]
+New rho = 0.01 after 6 function evaluations
+Function eval 7 at point 7 has f = 3.43234557660334 [r(x) entrywise error 0.00275792, f error 0.0323913] at x = [0.2745294]
+Function eval 8 at point 8 has f = 1.5494758644515 [r(x) entrywise error 0.00780642, f error 0.0620668] at x = [-0.1072245]
+Function eval 9 at point 9 has f = 1.50799857638012 [r(x) entrywise error 0.00346874, f error 0.0270606] at x = [-0.50412717]
+Dynamic accuracy: xk eval tolerance 0.00780642 above required tolerance 0.000239254, re-evaluating
+Function eval 10 at point 10 has f = 1.51837711095326 [r(x) entrywise error 0.000236862, f error 0.00184649] at x = [-0.1072245]
+Dynamic accuracy: xk eval tolerance 0.000236862 above required tolerance 6.51319e-05, re-evaluating
+Function eval 11 at point 11 has f = 1.51895235349324 [r(x) entrywise error 6.44806e-05, f error 0.000502652] at x = [-0.1072245]
+Function eval 12 at point 12 has f = 1.44544580695013 [r(x) entrywise error 6.83833e-05, f error 0.00052002] at x = [-0.4572245]
+Function eval 13 at point 13 has f = 15.4144564733956 [r(x) entrywise error 0.000730118, f error 0.0181349] at x = [-1.69549059]
+Function eval 14 at point 14 has f = 1.99128512177378 [r(x) entrywise error 0.0027712, f error 0.0248091] at x = [0.07251646]
+Function eval 15 at point 15 has f = 2.54884583916887 [r(x) entrywise error 0.00160425, f error 0.0162242] at x = [-0.8072245]
+Function eval 16 at point 16 has f = 1.37100526138885 [r(x) entrywise error 0.001, f error 0.00741542] at x = [-0.3172245]
+Dynamic accuracy: xk eval tolerance 0.001 above required tolerance 0.000475222, re-evaluating
+Function eval 17 at point 17 has f = 1.37118832631163 [r(x) entrywise error 0.000470473, f error 0.00348649] at x = [-0.3172245]
+Function eval 18 at point 18 has f = 1.4309692090756 [r(x) entrywise error 0.000461591, f error 0.00349436] at x = [-0.1772245]
+New rho = 0.001 after 18 function evaluations
+Dynamic accuracy: xk eval tolerance 0.000470473 above required tolerance 0.000190457, re-evaluating
+Function eval 19 at point 19 has f = 1.37172169316237 [r(x) entrywise error 0.000188553, f error 0.00139703] at x = [-0.3172245]
+Function eval 20 at point 20 has f = 1.38804187523251 [r(x) entrywise error 0.000184911, f error 0.00137816] at x = [-0.3872245]
+Dynamic accuracy: xk eval tolerance 0.000188553 above required tolerance 5.36213e-05, re-evaluating
+Did a total of 1 run(s)
+
+****** DFO-LS Results ******
+Solution xmin = [-0.3172245]
+Residual vector = [0.33605834 0.33878527 0.3623966  0.46366398 0.45795975 0.39291854
+ 0.29365898 0.30002668 0.37197629 0.34491356]
+Objective value f(xmin) = 1.371721693
+Needed 20 objective evaluations (at 20 points)
+Approximate Jacobian = [[-0.23313611]
+ [-0.03954195]
+ [-0.00887809]
+ [-0.01886711]
+ [ 0.01571082]
+ [-0.00512308]
+ [-0.02954294]
+ [ 0.01904398]
+ [-0.02771059]
+ [-0.00789207]]
+Diagnostic information available; check self.diagnostic_info
+Exit flag = 1
+Warning (max evals): Objective has been called MAXFUN times
+****************************
+
+
+DFO-LS finished at 2020-05-20 11:29:38
+Took 34.9566 seconds (wall time)
+Saved diagnostic info to: raw_results/1param_start2_budget20/1param_start2_budget20_fista_dynamic_diagnostic_info.pkl
+Saved evals to: raw_results/1param_start2_budget20/1param_start2_budget20_fista_dynamic_evals.pkl
+Saved training data (true images) to: raw_results/1param_start2_budget20/1param_start2_budget20_fista_dynamic_true_imgs.npy
+Saved training data (noisy images) to: raw_results/1param_start2_budget20/1param_start2_budget20_fista_dynamic_noisy_imgs.npy
+Saved training data (final reconstructions) to: raw_results/1param_start2_budget20/1param_start2_budget20_fista_dynamic_recons.npy
+
+Done
+

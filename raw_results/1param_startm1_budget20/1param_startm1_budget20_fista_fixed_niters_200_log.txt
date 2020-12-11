@@ -1,0 +1,73 @@
+Running problem type denoising1d_1param
+Setting random seed = 0
+Training data: 10 images (size 256) with noise level 0.1
+Using lower-level solver fista
+Running DFO-LS with fixed accuracy (200 iterations of lower-level solver per image)
+
+Starting DFO-LS at 2020-05-20 11:31:12:
+x0 = [-1.]
+xmin = [-7.]
+xmax = [7.]
+Budget = 20 evaluations
+Rhoend = 1e-06
+
+Function eval 1 at point 1 has f = 4.19034512725026 at x = [-1.]
+Initialising (coordinate directions)
+Function eval 2 at point 2 has f = 1.97692168820407 at x = [0.4]
+Beginning main loop
+Function eval 3 at point 3 has f = 4.91460259271668 at x = [1.8]
+New rho = 0.01 after 3 function evaluations
+Function eval 4 at point 4 has f = 1.55681963657228 at x = [-0.3]
+Function eval 5 at point 5 has f = 4.17670494877301 at x = [-1.]
+Function eval 6 at point 6 has f = 1.54292619193384 at x = [0.05]
+Function eval 7 at point 7 has f = 2.01992910514525 at x = [0.19]
+New rho = 0.001 after 7 function evaluations
+Function eval 8 at point 8 has f = 1.78371310643116 at x = [-0.02]
+Function eval 9 at point 9 has f = 1.9478506002393 at x = [0.085]
+Function eval 10 at point 10 has f = 1.89319430138287 at x = [0.036]
+New rho = 0.0001 after 10 function evaluations
+Function eval 11 at point 11 has f = 1.92513449469893 at x = [0.057]
+Function eval 12 at point 12 has f = 1.91118674896944 at x = [0.0465]
+Function eval 13 at point 13 has f = 1.91815847215821 at x = [0.0514]
+New rho = 1e-05 after 13 function evaluations
+Function eval 14 at point 14 has f = 1.91553961685716 at x = [0.0493]
+Function eval 15 at point 15 has f = 1.91716093199211 at x = [0.05035]
+Function eval 16 at point 16 has f = 1.91654832316805 at x = [0.04986]
+New rho = 1e-06 after 16 function evaluations
+Function eval 17 at point 17 has f = 1.91684211346324 at x = [0.05007]
+Function eval 18 at point 18 has f = 1.9166916827614 at x = [0.049965]
+Function eval 19 at point 19 has f = 1.916757266132 at x = [0.050014]
+Did a total of 1 run(s)
+
+****** DFO-LS Results ******
+Solution xmin = [0.05]
+Residual vector = [0.30604739 0.35765419 0.38484856 0.48393611 0.48699865 0.42437384
+ 0.32002872 0.34010056 0.39169576 0.38764533]
+Objective value f(xmin) = 1.542926192
+Needed 19 objective evaluations (at 19 points)
+Approximate Jacobian = [[  292.77323343]
+ [-1485.88448541]
+ [-1379.95567058]
+ [ -710.56492216]
+ [-1613.0266915 ]
+ [-1751.17333153]
+ [ -996.37880709]
+ [-1927.91759918]
+ [-1090.02166749]
+ [-1917.86656378]]
+Diagnostic information available; check self.diagnostic_info
+Exit flag = 0
+Success: rho has reached rhoend
+****************************
+
+
+DFO-LS finished at 2020-05-20 11:31:18
+Took 5.26529 seconds (wall time)
+Saved diagnostic info to: raw_results/1param_startm1_budget20/1param_startm1_budget20_fista_fixed_niters_200_diagnostic_info.pkl
+Saved evals to: raw_results/1param_startm1_budget20/1param_startm1_budget20_fista_fixed_niters_200_evals.pkl
+Saved training data (true images) to: raw_results/1param_startm1_budget20/1param_startm1_budget20_fista_fixed_niters_200_true_imgs.npy
+Saved training data (noisy images) to: raw_results/1param_startm1_budget20/1param_startm1_budget20_fista_fixed_niters_200_noisy_imgs.npy
+Saved training data (final reconstructions) to: raw_results/1param_startm1_budget20/1param_startm1_budget20_fista_fixed_niters_200_recons.npy
+
+Done
+

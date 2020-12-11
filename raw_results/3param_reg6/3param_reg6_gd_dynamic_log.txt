@@ -1,0 +1,192 @@
+Running problem type denoising1d_3param
+Setting random seed = 0
+Training data: 20 images (size 256) with noise level 0.1
+Using lower-level solver gd
+Condition number regularizer weight = 1e-06
+Running DFO-LS with dynamic accuracy
+
+Starting DFO-LS at 2020-03-10 15:00:01:
+x0 = [ 0. -1. -1.]
+xmin = [-7. -7. -7.]
+xmax = [7. 0. 0.]
+Budget = 100 evaluations
+Rhoend = 1e-06
+
+Function eval 1 at point 1 has f = 43.2453611213419 [r(x) entrywise error 0.1, f error 6.23711] at x = [ 0. -1. -1.]
+Initialising (coordinate directions)
+Function eval 2 at point 2 has f = 188.923610639745 [r(x) entrywise error 0.1, f error 12.8075] at x = [ 1.4 -1.  -1. ]
+Function eval 3 at point 3 has f = 254.788220959278 [r(x) entrywise error 0.1, f error 14.8395] at x = [ 0.  -0.3 -1. ]
+Function eval 4 at point 4 has f = 41.5522237216831 [r(x) entrywise error 0.1, f error 6.11795] at x = [ 0.  -1.  -0.3]
+Beginning main loop
+Dynamic accuracy: xk eval tolerance 0.1 above required tolerance 0.0353245, re-evaluating
+Function eval 5 at point 5 has f = 40.4097644787696 [r(x) entrywise error 0.0349754, f error 2.06341] at x = [ 0. -1. -1.]
+Dynamic accuracy: xk eval tolerance 0.0349754 above required tolerance 0.0341428, re-evaluating
+Function eval 6 at point 6 has f = 40.3583729084118 [r(x) entrywise error 0.0338054, f error 1.9923] at x = [ 0. -1. -1.]
+Function eval 7 at point 7 has f = 21.5088755282444 [r(x) entrywise error 0.01372, f error 0.587133] at x = [-0.24224451 -1.37815282 -0.42351943]
+Function eval 8 at point 8 has f = 24.002490374706 [r(x) entrywise error 0.00730517, f error 0.329139] at x = [-0.5113543  -1.71861435 -0.13881008]
+New rho = 0.01 after 8 function evaluations
+Function eval 9 at point 9 has f = 17.5794983645149 [r(x) entrywise error 0.00846796, f error 0.326909] at x = [-0.65942748 -1.4866351  -0.68278993]
+Function eval 10 at point 10 has f = 15.0860121978222 [r(x) entrywise error 0.0138991, f error 0.498838] at x = [-0.19624003 -1.6887679  -0.85014188]
+Dynamic accuracy: xk eval tolerance 0.0138991 above required tolerance 0.00539951, re-evaluating
+Function eval 11 at point 11 has f = 15.1387158825367 [r(x) entrywise error 0.00534568, f error 0.191228] at x = [-0.19624003 -1.6887679  -0.85014188]
+Function eval 12 at point 12 has f = 10.392758252127 [r(x) entrywise error 0.00427115, f error 0.12658] at x = [-0.24888314 -1.7828015  -1.18624434]
+Function eval 13 at point 13 has f = 3.53840662588439 [r(x) entrywise error 0.0104688, f error 0.182786] at x = [-0.26684129 -2.23792648 -2.51017055]
+Dynamic accuracy: xk eval tolerance 0.0104688 above required tolerance 0.00976194, re-evaluating
+Function eval 14 at point 14 has f = 3.52946598060931 [r(x) entrywise error 0.00966544, f error 0.168386] at x = [-0.26684129 -2.23792648 -2.51017055]
+Function eval 15 at point 15 has f = 47.6085383049738 [r(x) entrywise error 0.00377607, f error 0.239093] at x = [-2.6770484  -1.34226419 -3.55176333]
+Dynamic accuracy: xk eval tolerance 0.00966544 above required tolerance 0.00844827, re-evaluating
+Function eval 16 at point 16 has f = 3.51496024772997 [r(x) entrywise error 0.00836463, f error 0.145199] at x = [-0.26684129 -2.23792648 -2.51017055]
+Function eval 17 at point 17 has f = 687.295853131029 [r(x) entrywise error 0.00231145, f error 0.5555] at x = [ 1.8222049  -1.05610687 -1.58730818]
+Function eval 18 at point 18 has f = 4.95445860107403 [r(x) entrywise error 0.170378, f error 4.08536] at x = [-0.56347322 -2.23966925 -2.34007033]
+Function eval 19 at point 19 has f = 3.4191560603246 [r(x) entrywise error 0.000716062, f error 0.012146] at x = [-0.24768153 -2.42878815 -2.31554265]
+Function eval 20 at point 20 has f = 5.02246985197167 [r(x) entrywise error 0.0151837, f error 0.316712] at x = [-0.04352161 -2.13193352 -2.41172472]
+Dynamic accuracy: xk eval tolerance 0.00836463 above required tolerance 0.00574626, re-evaluating
+Function eval 21 at point 21 has f = 3.48515328842619 [r(x) entrywise error 0.00568919, f error 0.098022] at x = [-0.26684129 -2.23792648 -2.51017055]
+Function eval 22 at point 22 has f = 3.22185500505717 [r(x) entrywise error 0.00485599, f error 0.0803811] at x = [-0.36450565 -2.44984251 -2.67481256]
+Dynamic accuracy: xk eval tolerance 0.00485599 above required tolerance 0.00371579, re-evaluating
+Function eval 23 at point 23 has f = 3.21470996548511 [r(x) entrywise error 0.0036788, f error 0.0607371] at x = [-0.36450565 -2.44984251 -2.67481256]
+Function eval 24 at point 24 has f = 3.09192745353206 [r(x) entrywise error 0.00297871, f error 0.0481908] at x = [-0.36947655 -2.7224092  -2.66475309]
+Dynamic accuracy: xk eval tolerance 0.00297871 above required tolerance 0.00269612, re-evaluating
+Function eval 25 at point 25 has f = 3.09053344339814 [r(x) entrywise error 0.00266925, f error 0.0431573] at x = [-0.36947655 -2.7224092  -2.66475309]
+Function eval 26 at point 26 has f = 8.37756479025615 [r(x) entrywise error 0.00212979, f error 0.0565935] at x = [ 0.11458352 -2.77998761 -2.55292213]
+Function eval 27 at point 27 has f = 3.61631057414179 [r(x) entrywise error 0.00296802, f error 0.0519146] at x = [-0.64215103 -2.72589496 -2.66475155]
+Function eval 28 at point 28 has f = 3.28239696620011 [r(x) entrywise error 0.001, f error 0.0166259] at x = [-0.36165046 -2.72583624 -2.73455956]
+New rho = 0.001 after 28 function evaluations
+Dynamic accuracy: xk eval tolerance 0.00266925 above required tolerance 0.000354193, re-evaluating
+Function eval 29 at point 29 has f = 3.07957087071021 [r(x) entrywise error 0.00025, f error 0.00402223] at x = [-0.36947655 -2.7224092  -2.66475309]
+Function eval 30 at point 30 has f = 3.14647067900391 [r(x) entrywise error 0.00025, f error 0.00406567] at x = [-0.32571416 -2.72650398 -2.63774482]
+Function eval 31 at point 31 has f = 3.097058907195 [r(x) entrywise error 6.25e-05, f error 0.00100816] at x = [-0.36332347 -2.70913121 -2.66523249]
+Function eval 32 at point 32 has f = 3.00930827731774 [r(x) entrywise error 6.25e-05, f error 0.000993777] at x = [-0.40209187 -2.72211349 -2.65841095]
+Function eval 33 at point 33 has f = 2.97924143203615 [r(x) entrywise error 6.25e-05, f error 0.0009888] at x = [-0.4363693  -2.72342099 -2.65512388]
+Function eval 34 at point 34 has f = 2.95947972946193 [r(x) entrywise error 6.25e-05, f error 0.000985516] at x = [-0.43460592 -2.72479159 -2.63769993]
+Function eval 35 at point 35 has f = 2.95267939538558 [r(x) entrywise error 6.25e-05, f error 0.000984383] at x = [-0.44372639 -2.74110887 -2.63331809]
+Function eval 36 at point 36 has f = 2.95050110261416 [r(x) entrywise error 6.25e-05, f error 0.00098402] at x = [-0.46272945 -2.73843018 -2.61886833]
+Dynamic accuracy: xk eval tolerance 6.25e-05 above required tolerance 3.02156e-05, re-evaluating
+Function eval 37 at point 37 has f = 2.95272603072148 [r(x) entrywise error 1e-05, f error 0.000157491] at x = [-0.44372639 -2.74110887 -2.63331809]
+Function eval 38 at point 38 has f = 2.94734657934033 [r(x) entrywise error 1e-05, f error 0.000157348] at x = [-0.43468588 -2.74301888 -2.62832618]
+Function eval 39 at point 39 has f = 2.94231172165318 [r(x) entrywise error 1e-05, f error 0.000157213] at x = [-0.42897007 -2.745865   -2.62260499]
+Function eval 40 at point 40 has f = 2.92883529452761 [r(x) entrywise error 6.6961e-05, f error 0.00105038] at x = [-0.40810053 -2.75764875 -2.59944773]
+Dynamic accuracy: xk eval tolerance 6.6961e-05 above required tolerance 5.19653e-05, re-evaluating
+Function eval 41 at point 41 has f = 2.9288439350157 [r(x) entrywise error 5.14457e-05, f error 0.000806987] at x = [-0.40810053 -2.75764875 -2.59944773]
+Function eval 42 at point 42 has f = 2.92063382091889 [r(x) entrywise error 5.16794e-05, f error 0.000809517] at x = [-0.39329673 -2.77212353 -2.57665096]
+Function eval 43 at point 43 has f = 2.9467585692366 [r(x) entrywise error 0.000136608, f error 0.00214965] at x = [-0.36571897 -2.7527514  -2.56186626]
+Function eval 44 at point 44 has f = 2.92674737460954 [r(x) entrywise error 4e-05, f error 0.000627214] at x = [-0.38850864 -2.78499273 -2.58161606]
+Function eval 45 at point 45 has f = 2.91005165153879 [r(x) entrywise error 1e-05, f error 0.000156349] at x = [-0.40625361 -2.773036   -2.57416154]
+Function eval 46 at point 46 has f = 2.90401918581003 [r(x) entrywise error 1e-05, f error 0.000156187] at x = [-0.41855355 -2.77349147 -2.57084937]
+Function eval 47 at point 47 has f = 2.90615557905697 [r(x) entrywise error 1e-05, f error 0.000156245] at x = [-0.42702303 -2.7717377  -2.57614005]
+New rho = 0.0001 after 47 function evaluations
+Function eval 48 at point 48 has f = 2.90243302180231 [r(x) entrywise error 2.5e-06, f error 3.90357e-05] at x = [-0.42174574 -2.77254975 -2.56788025]
+Function eval 49 at point 49 has f = 2.90124939114928 [r(x) entrywise error 2.5e-06, f error 3.90278e-05] at x = [-0.42481092 -2.77525245 -2.56626887]
+Function eval 50 at point 50 has f = 2.89989745807288 [r(x) entrywise error 2.5e-06, f error 3.90187e-05] at x = [-0.42604318 -2.77598806 -2.56290298]
+Function eval 51 at point 51 has f = 2.89517229380977 [r(x) entrywise error 1.89658e-05, f error 0.000295773] at x = [-0.42256525 -2.77743076 -2.54908651]
+Function eval 52 at point 52 has f = 2.88621658139802 [r(x) entrywise error 9.24971e-05, f error 0.00144041] at x = [-0.40230868 -2.82515496 -2.52159437]
+Dynamic accuracy: xk eval tolerance 9.24971e-05 above required tolerance 6.94929e-05, re-evaluating
+Function eval 53 at point 53 has f = 2.88623938961222 [r(x) entrywise error 6.87981e-05, f error 0.00107133] at x = [-0.40230868 -2.82515496 -2.52159437]
+Function eval 54 at point 54 has f = 2.92651898366442 [r(x) entrywise error 6.9292e-05, f error 0.00108652] at x = [-0.35576888 -2.8175579  -2.47122775]
+Function eval 55 at point 55 has f = 2.89414030727345 [r(x) entrywise error 0.00016, f error 0.00249524] at x = [-0.38924156 -2.8254791  -2.52456405]
+Function eval 56 at point 56 has f = 2.89582748073391 [r(x) entrywise error 0.000109571, f error 0.00170917] at x = [-0.44984577 -2.83832234 -2.52835281]
+Function eval 57 at point 57 has f = 2.88637784058548 [r(x) entrywise error 4e-05, f error 0.000622873] at x = [-0.40501624 -2.82094674 -2.52503212]
+Function eval 58 at point 58 has f = 2.88474844393589 [r(x) entrywise error 4e-05, f error 0.000622697] at x = [-0.41164151 -2.81792228 -2.51055296]
+Dynamic accuracy: xk eval tolerance 6.87981e-05 above required tolerance 2.71075e-05, re-evaluating
+Function eval 59 at point 59 has f = 2.8863040547393 [r(x) entrywise error 1e-05, f error 0.00015571] at x = [-0.40230868 -2.82515496 -2.52159437]
+Function eval 60 at point 60 has f = 2.88347566921917 [r(x) entrywise error 1e-05, f error 0.000155634] at x = [-0.41550987 -2.82748203 -2.52172458]
+Function eval 61 at point 61 has f = 2.88422403398925 [r(x) entrywise error 1e-05, f error 0.000155654] at x = [-0.42240209 -2.82437785 -2.51648165]
+Function eval 62 at point 62 has f = 2.8833504199585 [r(x) entrywise error 2.5e-06, f error 3.89072e-05] at x = [-0.41505467 -2.82815837 -2.52117454]
+Dynamic accuracy: xk eval tolerance 1e-05 above required tolerance 4.80759e-06, re-evaluating
+Function eval 63 at point 63 has f = 2.88346712543999 [r(x) entrywise error 2.5e-06, f error 3.8908e-05] at x = [-0.41550987 -2.82748203 -2.52172458]
+Function eval 64 at point 64 has f = 2.8832458304833 [r(x) entrywise error 2.5e-06, f error 3.89065e-05] at x = [-0.41985142 -2.83014633 -2.52238731]
+Dynamic accuracy: xk eval tolerance 2.5e-06 above required tolerance 1.76269e-06, re-evaluating
+Function eval 65 at point 65 has f = 2.88324493316114 [r(x) entrywise error 1.74506e-06, f error 2.71577e-05] at x = [-0.41985142 -2.83014633 -2.52238731]
+Function eval 66 at point 66 has f = 2.88265958731669 [r(x) entrywise error 1.76266e-06, f error 2.74288e-05] at x = [-0.41704166 -2.83333587 -2.52206613]
+Function eval 67 at point 67 has f = 2.88118371872635 [r(x) entrywise error 7.15671e-06, f error 0.000111338] at x = [-0.40997451 -2.84649968 -2.51886803]
+Dynamic accuracy: xk eval tolerance 7.15671e-06 above required tolerance 5.28827e-06, re-evaluating
+Function eval 68 at point 68 has f = 2.88118487665106 [r(x) entrywise error 5.23539e-06, f error 8.14474e-05] at x = [-0.40997451 -2.84649968 -2.51886803]
+Function eval 69 at point 69 has f = 2.87957201514468 [r(x) entrywise error 5.28322e-06, f error 8.21685e-05] at x = [-0.40858413 -2.8604768  -2.51847207]
+Function eval 70 at point 70 has f = 2.87311656454236 [r(x) entrywise error 2.09167e-05, f error 0.000324954] at x = [-0.40684586 -2.91643902 -2.51660803]
+Function eval 71 at point 71 has f = 2.8566067205206 [r(x) entrywise error 8.25827e-05, f error 0.00127939] at x = [-0.39681582 -3.14005734 -2.50453761]
+Dynamic accuracy: xk eval tolerance 8.25827e-05 above required tolerance 8.24603e-05, re-evaluating
+Function eval 72 at point 72 has f = 2.85660373367521 [r(x) entrywise error 8.16358e-05, f error 0.00126472] at x = [-0.39681582 -3.14005734 -2.50453761]
+Function eval 73 at point 73 has f = 3.23303278879527 [r(x) entrywise error 8.20556e-05, f error 0.00135238] at x = [-0.2360792  -3.28452081 -2.35338457]
+Function eval 74 at point 74 has f = 2.93409875388878 [r(x) entrywise error 0.00256, f error 0.0403275] at x = [-0.34111193 -3.14021684 -2.51949898]
+Function eval 75 at point 75 has f = 3.24179351896722 [r(x) entrywise error 0.000935247, f error 0.0154517] at x = [-0.58475276 -3.14856375 -2.56488301]
+Function eval 76 at point 76 has f = 2.8567139138463 [r(x) entrywise error 0.00064, f error 0.00992269] at x = [-0.39851642 -3.11774766 -2.50635836]
+Function eval 77 at point 77 has f = 2.86687747411768 [r(x) entrywise error 0.00064, f error 0.00994032] at x = [-0.39081503 -3.13544826 -2.44880832]
+Function eval 78 at point 78 has f = 2.85560222826796 [r(x) entrywise error 0.00016, f error 0.00247858] at x = [-0.40209905 -3.14055893 -2.50944987]
+Function eval 79 at point 79 has f = 2.8719394231784 [r(x) entrywise error 0.00016, f error 0.00248566] at x = [-0.4481476  -3.14018504 -2.49334629]
+Dynamic accuracy: xk eval tolerance 8.16358e-05 above required tolerance 1.50026e-05, re-evaluating
+Function eval 80 at point 80 has f = 2.8563910697442 [r(x) entrywise error 1.48525e-05, f error 0.000230069] at x = [-0.39681582 -3.14005734 -2.50453761]
+Dynamic accuracy: xk eval tolerance 1.48525e-05 above required tolerance 1.40957e-05, re-evaluating
+Function eval 81 at point 81 has f = 2.85638816928621 [r(x) entrywise error 1.39547e-05, f error 0.000216161] at x = [-0.39681582 -3.14005734 -2.50453761]
+Function eval 82 at point 82 has f = 2.86358092713744 [r(x) entrywise error 1.40462e-05, f error 0.000217852] at x = [-0.38470704 -3.1416505  -2.51705984]
+Function eval 83 at point 83 has f = 2.85653434586258 [r(x) entrywise error 1e-05, f error 0.000154905] at x = [-0.39670639 -3.13783276 -2.50479418]
+Dynamic accuracy: xk eval tolerance 1.39547e-05 above required tolerance 1.38888e-05, re-evaluating
+Function eval 84 at point 84 has f = 2.85637531933142 [r(x) entrywise error 1e-05, f error 0.000154901] at x = [-0.39681582 -3.14005734 -2.50453761]
+Function eval 85 at point 85 has f = 2.85369340521981 [r(x) entrywise error 1e-05, f error 0.000154828] at x = [-0.41021936 -3.14040806 -2.50254681]
+Dynamic accuracy: xk eval tolerance 1e-05 above required tolerance 6.64569e-06, re-evaluating
+Function eval 86 at point 86 has f = 2.8536897848661 [r(x) entrywise error 6.57924e-06, f error 0.000101864] at x = [-0.41021936 -3.14040806 -2.50254681]
+Function eval 87 at point 87 has f = 2.85536860012621 [r(x) entrywise error 6.65234e-06, f error 0.000103027] at x = [-0.42392001 -3.14183546 -2.50273538]
+Function eval 88 at point 88 has f = 2.85362107949925 [r(x) entrywise error 2.5e-06, f error 3.87061e-05] at x = [-0.40990552 -3.14111625 -2.50288658]
+Function eval 89 at point 89 has f = 2.8539024656772 [r(x) entrywise error 2.5e-06, f error 3.8708e-05] at x = [-0.4087645  -3.1419495  -2.49948989]
+Dynamic accuracy: xk eval tolerance 6.57924e-06 above required tolerance 1.26047e-06, re-evaluating
+Function eval 90 at point 90 has f = 2.85368232423124 [r(x) entrywise error 6.25e-07, f error 9.6766e-06] at x = [-0.41021936 -3.14040806 -2.50254681]
+Function eval 91 at point 91 has f = 2.8538617882657 [r(x) entrywise error 6.25e-07, f error 9.67691e-06] at x = [-0.40715987 -3.14031552 -2.50339169]
+Dynamic accuracy: xk eval tolerance 6.25e-07 above required tolerance 4.03387e-07, re-evaluating
+Function eval 92 at point 92 has f = 2.8536814626607 [r(x) entrywise error 1e-07, f error 1.54825e-06] at x = [-0.41021936 -3.14040806 -2.50254681]
+Function eval 93 at point 93 has f = 2.85361281857194 [r(x) entrywise error 1e-07, f error 1.54824e-06] at x = [-0.41131642 -3.14071976 -2.50285006]
+Function eval 94 at point 94 has f = 2.85358587818794 [r(x) entrywise error 1e-07, f error 1.54823e-06] at x = [-0.41202736 -3.14130415 -2.5027013 ]
+Function eval 95 at point 95 has f = 2.85352562520554 [r(x) entrywise error 1e-07, f error 1.54821e-06] at x = [-0.41243486 -3.14159389 -2.50330507]
+Function eval 96 at point 96 has f = 2.85331936650494 [r(x) entrywise error 8.39504e-07, f error 1.29968e-05] at x = [-0.41392873 -3.14362788 -2.50507849]
+Function eval 97 at point 97 has f = 2.85291758511226 [r(x) entrywise error 3.1347e-06, f error 4.85269e-05] at x = [-0.41843834 -3.15411294 -2.50830639]
+Slow iteration (1 consecutive so far, max allowed 60)
+Function eval 98 at point 98 has f = 2.85469650730882 [r(x) entrywise error 3.69312e-06, f error 5.71894e-05] at x = [-0.42719986 -3.15416092 -2.51861399]
+Function eval 99 at point 99 has f = 2.85256073106862 [r(x) entrywise error 6.4e-06, f error 9.90697e-05] at x = [-0.41573781 -3.15422681 -2.50887973]
+Function eval 100 at point 100 has f = 2.8525300090547 [r(x) entrywise error 5.26455e-06, f error 8.14927e-05] at x = [-0.4087487  -3.15647939 -2.5067939 ]
+Slow iteration (2 consecutive so far, max allowed 60)
+Dynamic accuracy: xk eval tolerance 5.26455e-06 above required tolerance 3.98678e-06, re-evaluating
+Did a total of 1 run(s)
+
+****** DFO-LS Results ******
+Solution xmin = [-0.4087487  -3.15647939 -2.5067939 ]
+Residual vector = [0.46313581 0.45944172 0.34945331 0.35006643 0.35228116 0.32716759
+ 0.30550032 0.32711544 0.29972102 0.26844999 0.32136436 0.38161223
+ 0.36810205 0.29941549 0.39386761 0.38252164 0.44257736 0.32827312
+ 0.38873003 0.3266381  0.50195924]
+Objective value f(xmin) = 2.852530009
+Needed 100 objective evaluations (at 100 points)
+Approximate Jacobian = [[-1.64350323e-01 -7.19682206e-04  7.85994556e-02]
+ [ 6.96783922e-03  3.91569518e-03  6.45371316e-02]
+ [-1.34439345e-01  4.13004569e-03  7.00980560e-02]
+ [-1.98164670e-01 -4.99978307e-03  8.84021306e-02]
+ [-5.87925718e-02  1.48533201e-05  9.82387532e-02]
+ [-1.57548701e-01 -1.24717560e-03  7.35868027e-02]
+ [-5.55650817e-02 -1.51823105e-03  1.19300928e-01]
+ [-9.36992775e-02 -2.69045317e-03  1.26237309e-01]
+ [-6.87696559e-02  6.45051478e-03  8.38828123e-02]
+ [-2.87108288e-01 -3.53288969e-03  1.72734221e-01]
+ [ 1.87890826e-02  1.00604935e-03  9.66487317e-02]
+ [-1.25994564e-01  5.84493491e-03  9.56807832e-02]
+ [-1.29582287e-01  9.27239593e-04  1.33483238e-01]
+ [ 1.26161846e-03 -2.63073822e-03  7.77441485e-02]
+ [-1.53461248e-01  2.30688852e-03  7.68496827e-02]
+ [-1.16689022e-01  1.08527064e-04  1.22173774e-01]
+ [ 9.32787689e-02  1.80977719e-03  6.25514976e-02]
+ [-7.41746181e-02 -7.14470149e-04  1.17669059e-01]
+ [-3.77760741e-02 -7.84280799e-04  7.99248314e-02]
+ [-9.69312009e-03  1.32110778e-03  8.31994201e-02]
+ [ 1.13859730e+00 -5.82813821e-03 -1.12424487e+00]]
+Diagnostic information available; check self.diagnostic_info
+Exit flag = 1
+Warning (max evals): Objective has been called MAXFUN times
+****************************
+
+
+DFO-LS finished at 2020-03-10 15:01:09
+Took 67.5149 seconds (wall time)
+Saved diagnostic info to: raw_results/3param_reg6_gd_dynamic_diagnostic_info.pkl
+Saved evals to: raw_results/3param_reg6_gd_dynamic_evals.pkl
+Saved training data (true images) to: raw_results/3param_reg6_gd_dynamic_true_imgs.npy
+Saved training data (noisy images) to: raw_results/3param_reg6_gd_dynamic_noisy_imgs.npy
+Saved training data (final reconstructions) to: raw_results/3param_reg6_gd_dynamic_recons.npy
+
+Done
+

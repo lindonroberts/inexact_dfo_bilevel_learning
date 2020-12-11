@@ -1,0 +1,21 @@
+{
+    "description": "generic denoising 1-param solve",
+    "seed": 0,
+    "problem": {
+        "type": "denoising1d_1param",
+        "num_training_data": 10,
+        "npixels": 256,
+        "noise_level": 0.1,
+        "log10_alpha": {
+            "init": 2.0,
+            "min": -7.0,
+            "max": 7.0
+        },
+        "verbose": true
+    },
+    "dfols": {
+        "maxevals": 20,
+        "rhoend": 1e-6,
+        "slow_tr_decrease": false
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "description": "generic denoising 3-param solve",
+    "seed": 0,
+    "problem": {
+        "type": "denoising1d_3param",
+        "num_training_data": 20,
+        "npixels": 256,
+        "noise_level": 0.1,
+        "cond_num_reg_weight": 1e-4,
+        "log10_alpha": {
+            "init": 0.0,
+            "min": -7.0,
+            "max": 7.0
+        },
+        "log10_eps1": {
+            "init": -1.0,
+            "min": -7.0,
+            "max": 0.0
+        },
+        "log10_eps2": {
+            "init": -1.0,
+            "min": -7.0,
+            "max": 0.0
+        },
+        "verbose": true
+    },
+    "dfols": {
+        "maxevals": 100,
+        "rhoend": 1e-6,
+        "slow_tr_decrease": false
+    }
+}

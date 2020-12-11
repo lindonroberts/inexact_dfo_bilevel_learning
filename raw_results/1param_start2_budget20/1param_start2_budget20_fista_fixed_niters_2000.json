@@ -1,0 +1,49 @@
+{
+    "description": "generic denoising 1-param solve",
+    "dfols": {
+        "dynamic_accuracy": false,
+        "fixed_niters": 2000,
+        "maxevals": 20,
+        "params": {
+            "logging.save_diagnostic_info": true,
+            "logging.save_rk": true,
+            "logging.save_xk": true,
+            "noise.quit_on_noise_level": false,
+            "restarts.use_restarts": false,
+            "slow.max_slow_iters": 20
+        },
+        "rhoend": 1e-06,
+        "slow_tr_decrease": false
+    },
+    "problem": {
+        "log10_alpha": {
+            "init": 2.0,
+            "max": 7.0,
+            "min": -7.0
+        },
+        "lower_level_algorithm": "fista",
+        "noise_level": 0.1,
+        "npixels": 256,
+        "num_training_data": 10,
+        "type": "denoising1d_1param",
+        "verbose": true
+    },
+    "runtime_wall": 53.340075,
+    "seed": 0,
+    "solution": {
+        "diagnostic_info_file": "1param_start2_budget20_fista_fixed_niters_2000_diagnostic_info.pkl",
+        "eval_info_outfile": "1param_start2_budget20_fista_fixed_niters_2000_evals.pkl",
+        "f": 1.3714888570039414,
+        "flag": 1,
+        "message": "Warning (max evals): Objective has been called MAXFUN times",
+        "nf": 20,
+        "noisy_img_outfile": "1param_start2_budget20_fista_fixed_niters_2000_noisy_imgs.npy",
+        "recon_img_outfile": "1param_start2_budget20_fista_fixed_niters_2000_recons.npy",
+        "true_img_outfile": "1param_start2_budget20_fista_fixed_niters_2000_true_imgs.npy",
+        "xmin": {
+            "0": -0.3150093242190497
+        }
+    },
+    "time_end": "2020-05-20 11:30:06",
+    "time_start": "2020-05-20 11:29:13"
+}

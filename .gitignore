@@ -1,3 +1,8 @@
+# Custom extras
+.idea/
+raw_results/3param2d_*
+figures/3param2d_*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,175 @@
+Running problem type denoising1d_3param
+Setting random seed = 0
+Training data: 20 images (size 256) with noise level 0.1
+Using lower-level solver fista
+Condition number regularizer weight = 0.0001
+Running DFO-LS with fixed accuracy (200 iterations of lower-level solver per image)
+
+Starting DFO-LS at 2020-03-10 14:58:11:
+x0 = [ 0. -1. -1.]
+xmin = [-7. -7. -7.]
+xmax = [7. 0. 0.]
+Budget = 100 evaluations
+Rhoend = 1e-06
+
+Function eval 1 at point 1 has f = 39.0829206419852 at x = [ 0. -1. -1.]
+Initialising (coordinate directions)
+Function eval 2 at point 2 has f = 274.857180680885 at x = [ 1.4 -1.  -1. ]
+Function eval 3 at point 3 has f = 263.105642867489 at x = [ 0.  -0.3 -1. ]
+Function eval 4 at point 4 has f = 38.1208548644595 at x = [ 0.  -1.  -0.3]
+Beginning main loop
+Function eval 5 at point 5 has f = 23.0710794823345 at x = [-0.00595997 -1.42770982  0.        ]
+Function eval 6 at point 6 has f = 22.1971247309255 at x = [-0.25062116 -2.11693781  0.        ]
+Function eval 7 at point 7 has f = 33.2907760955964 at x = [-0.83894572 -2.75212956  0.        ]
+New rho = 0.01 after 7 function evaluations
+Function eval 8 at point 8 has f = 22.1757932088945 at x = [ 0.43597875 -2.18509308  0.        ]
+Function eval 9 at point 9 has f = 23.6202029958218 at x = [ 0.43597875 -2.18509308 -0.12417588]
+Function eval 10 at point 10 has f = 21.3671727320117 at x = [ 0.36627166 -2.35658719  0.        ]
+Function eval 11 at point 11 has f = 46.0526323488505 at x = [ 1.28708351 -2.88386926  0.        ]
+Function eval 12 at point 12 has f = 20.9811603683017 at x = [ 0.2712083  -2.39809034 -0.0706594 ]
+Function eval 13 at point 13 has f = 24.3689954148173 at x = [-0.40589357 -2.34432684  0.        ]
+Function eval 14 at point 14 has f = 22.6757081442821 at x = [ 0.41742164 -2.55651088 -0.08419997]
+Function eval 15 at point 15 has f = 20.1393443183237 at x = [ 0.14363576 -2.40025878 -0.04190858]
+Function eval 16 at point 16 has f = 20.0277208173378 at x = [ 0.01099435 -2.37825475 -0.03773885]
+Function eval 17 at point 17 has f = 20.3240362269621 at x = [-0.0331589  -2.43597852 -0.00486655]
+New rho = 0.001 after 17 function evaluations
+Function eval 18 at point 18 has f = 19.898269203945 at x = [-0.00395618 -2.38397393 -0.07144955]
+Function eval 19 at point 19 has f = 19.7963096333942 at x = [-0.01601858 -2.36347432 -0.09916941]
+Function eval 20 at point 20 has f = 19.6715720940366 at x = [-0.05069362 -2.36488001 -0.12954102]
+Function eval 21 at point 21 has f = 19.0301430940125 at x = [-0.19817985 -2.38583102 -0.24668626]
+Function eval 22 at point 22 has f = 18.8318304669718 at x = [-0.80249305 -2.67879351 -0.61611064]
+Function eval 23 at point 23 has f = 22.24333930391 at x = [-0.93622732 -2.65075102 -0.58365759]
+Function eval 24 at point 24 has f = 13.2259189346481 at x = [-0.3391048  -2.73914505 -0.76128476]
+Function eval 25 at point 25 has f = 18.1537685596613 at x = [-0.05422843 -2.9696638  -0.69076905]
+Function eval 26 at point 26 has f = 12.4624678827489 at x = [-0.40749839 -2.77270301 -0.8019113 ]
+Function eval 27 at point 27 has f = 11.0194622812006 at x = [-0.37207331 -2.72417071 -0.93203002]
+Function eval 28 at point 28 has f = 10.3532880547428 at x = [-0.58583235 -2.6790708  -1.01040583]
+Function eval 29 at point 29 has f = 8.97422263274284 at x = [-0.57320789 -2.73825652 -1.13712286]
+Function eval 30 at point 30 has f = 5.3593589843705 at x = [-0.45047538 -2.79793807 -1.69054159]
+Function eval 31 at point 31 has f = 30.1697344664184 at x = [-1.57907549 -1.44256374 -3.01757391]
+Function eval 32 at point 32 has f = 13.4027685425961 at x = [-0.65927261 -3.48842369 -0.81491009]
+Function eval 33 at point 33 has f = 6.36809983412421 at x = [-0.78535632 -2.65809088 -2.20629973]
+Function eval 34 at point 34 has f = 5.54078321665236 at x = [-0.61258881 -2.87503897 -1.68513241]
+Function eval 35 at point 35 has f = 8.98019515226471 at x = [-0.11841473 -3.01634378 -1.74651367]
+Function eval 36 at point 36 has f = 5.55276289999462 at x = [-0.43074833 -2.80446751 -1.63580516]
+Function eval 37 at point 37 has f = 5.30074436513892 at x = [-0.57777539 -2.68043221 -1.73226749]
+Function eval 38 at point 38 has f = 5.41343673269887 at x = [-0.61353839 -2.68935179 -1.73010925]
+Function eval 39 at point 39 has f = 5.17314365745414 at x = [-0.47651025 -2.66572328 -1.77831085]
+Function eval 40 at point 40 has f = 5.44925462113395 at x = [-0.40199951 -2.62053665 -1.73996759]
+Function eval 41 at point 41 has f = 5.21349994482089 at x = [-0.45909793 -2.67776189 -1.77258277]
+Function eval 42 at point 42 has f = 5.09546046713302 at x = [-0.51166648 -2.66881699 -1.80841797]
+Function eval 43 at point 43 has f = 5.06376343782239 at x = [-0.53856782 -2.65006069 -1.8347292 ]
+Function eval 44 at point 44 has f = 5.16397480989926 at x = [-0.60602222 -2.65503914 -1.82681143]
+Function eval 45 at point 45 has f = 5.06040696996613 at x = [-0.52374878 -2.65750214 -1.84872826]
+Function eval 46 at point 46 has f = 5.06862383202686 at x = [-0.51610746 -2.6517267  -1.84975138]
+New rho = 0.0001 after 46 function evaluations
+Function eval 47 at point 47 has f = 5.05538694023526 at x = [-0.5301001  -2.65827656 -1.84997944]
+Function eval 48 at point 48 has f = 5.04765283131447 at x = [-0.55185426 -2.66447025 -1.8562506 ]
+Function eval 49 at point 49 has f = 5.04732231240658 at x = [-0.55856198 -2.67800984 -1.85744681]
+Function eval 50 at point 50 has f = 5.04389877413103 at x = [-0.5549113  -2.67817418 -1.86070456]
+Function eval 51 at point 51 has f = 5.04174513679061 at x = [-0.55791866 -2.67742984 -1.86750051]
+Function eval 52 at point 52 has f = 5.03932193480471 at x = [-0.54649871 -2.67889646 -1.87127479]
+Function eval 53 at point 53 has f = 5.03749926604835 at x = [-0.5482463  -2.68308284 -1.87681652]
+Function eval 54 at point 54 has f = 5.03592076427341 at x = [-0.56708918 -2.69984171 -1.89717276]
+Function eval 55 at point 55 has f = 5.03502780346968 at x = [-0.54197037 -2.72353232 -1.88910949]
+Function eval 56 at point 56 has f = 5.04346271391461 at x = [-0.53338797 -2.72228333 -1.89212384]
+Function eval 57 at point 57 has f = 5.03157104928135 at x = [-0.56223254 -2.72909541 -1.88120929]
+Function eval 58 at point 58 has f = 5.03427600736712 at x = [-0.56994003 -2.74251614 -1.88019311]
+Function eval 59 at point 59 has f = 5.03292653098291 at x = [-0.56647981 -2.72867837 -1.88375514]
+Function eval 60 at point 60 has f = 5.03279396381197 at x = [-0.5599828  -2.72643292 -1.87483388]
+Function eval 61 at point 61 has f = 5.03226071433979 at x = [-0.56393636 -2.7300591  -1.88065653]
+Function eval 62 at point 62 has f = 5.02989525494064 at x = [-0.55567746 -2.72992653 -1.88211315]
+Function eval 63 at point 63 has f = 5.03047104611366 at x = [-0.5494187  -2.7287701  -1.88105501]
+Function eval 64 at point 64 has f = 5.02969834316381 at x = [-0.55495833 -2.73013432 -1.88381316]
+Function eval 65 at point 65 has f = 5.02947470280401 at x = [-0.55439683 -2.73185935 -1.8837241 ]
+Function eval 66 at point 66 has f = 5.02930313743534 at x = [-0.55610539 -2.7331443  -1.8845497 ]
+Function eval 67 at point 67 has f = 5.02904478152219 at x = [-0.55524872 -2.73466526 -1.88530184]
+Function eval 68 at point 68 has f = 5.02817489846483 at x = [-0.55534143 -2.74130567 -1.88751606]
+Slow iteration (1 consecutive so far, max allowed 60)
+Function eval 69 at point 69 has f = 5.02513570606868 at x = [-0.55892462 -2.76878985 -1.89255692]
+Function eval 70 at point 70 has f = 5.15730903233498 at x = [-0.64132886 -2.83505582 -1.97290122]
+Function eval 71 at point 71 has f = 5.13920545802502 at x = [-0.4739104  -2.78031813 -1.85797016]
+Function eval 72 at point 72 has f = 5.06947267415041 at x = [-0.60547998 -2.76668236 -1.90797471]
+Function eval 73 at point 73 has f = 5.02592362294917 at x = [-0.56340121 -2.76925216 -1.88924076]
+Function eval 74 at point 74 has f = 5.03069670500124 at x = [-0.5375131  -2.77215427 -1.8841863 ]
+Function eval 75 at point 75 has f = 5.02492508038125 at x = [-0.55965165 -2.77149545 -1.89317947]
+Function eval 76 at point 76 has f = 5.02694703863555 at x = [-0.56683083 -2.77116086 -1.89917971]
+Function eval 77 at point 77 has f = 5.02477579583031 at x = [-0.55380465 -2.77294063 -1.8919088 ]
+Function eval 78 at point 78 has f = 5.0246083452836 at x = [-0.55477713 -2.77577233 -1.89390756]
+Function eval 79 at point 79 has f = 5.02487658083672 at x = [-0.55632442 -2.77695726 -1.89710872]
+Function eval 80 at point 80 has f = 5.02419284316573 at x = [-0.5562734  -2.77690962 -1.89280786]
+Function eval 81 at point 81 has f = 5.02326586771263 at x = [-0.5569333  -2.78270734 -1.8888992 ]
+Function eval 82 at point 82 has f = 5.02256323759928 at x = [-0.5541848  -2.7887086  -1.88556809]
+Function eval 83 at point 83 has f = 5.02342266583309 at x = [-0.54116666 -2.81264238 -1.87257554]
+Function eval 84 at point 84 has f = 5.02339194946126 at x = [-0.54868979 -2.78893812 -1.88605649]
+Function eval 85 at point 85 has f = 5.02308241550267 at x = [-0.56414502 -2.80177982 -1.88498363]
+Function eval 86 at point 86 has f = 5.02255603934463 at x = [-0.55475653 -2.78867235 -1.88719327]
+Function eval 87 at point 87 has f = 5.02468008146414 at x = [-0.56456343 -2.78397363 -1.88888979]
+Function eval 88 at point 88 has f = 5.02230252488556 at x = [-0.55761691 -2.79186204 -1.88701866]
+Slow iteration (1 consecutive so far, max allowed 60)
+Function eval 89 at point 89 has f = 5.02290684111221 at x = [-0.56105098 -2.79158108 -1.88720668]
+Function eval 90 at point 90 has f = 5.02217621293229 at x = [-0.55648623 -2.79224873 -1.88716308]
+Slow iteration (2 consecutive so far, max allowed 60)
+Function eval 91 at point 91 has f = 5.02213883665547 at x = [-0.55590279 -2.7924471  -1.88655848]
+Slow iteration (3 consecutive so far, max allowed 60)
+Function eval 92 at point 92 has f = 5.02217299437043 at x = [-0.5547016  -2.79209317 -1.88662193]
+New rho = 1e-05 after 92 function evaluations
+Function eval 93 at point 93 has f = 5.02209682188542 at x = [-0.55567839 -2.79277348 -1.88661667]
+Slow iteration (4 consecutive so far, max allowed 60)
+Function eval 94 at point 94 has f = 5.02205731886225 at x = [-0.55554963 -2.79311614 -1.88658606]
+Slow iteration (5 consecutive so far, max allowed 60)
+Function eval 95 at point 95 has f = 5.02190542544874 at x = [-0.55511928 -2.79448858 -1.88641254]
+Slow iteration (6 consecutive so far, max allowed 60)
+Function eval 96 at point 96 has f = 5.02133422373073 at x = [-0.55415122 -2.79996828 -1.8853644 ]
+Slow iteration (7 consecutive so far, max allowed 60)
+Function eval 97 at point 97 has f = 5.01959195115561 at x = [-0.54970792 -2.82171066 -1.88045589]
+Function eval 98 at point 98 has f = 5.03068675084489 at x = [-0.52204819 -2.90521599 -1.85106618]
+Function eval 99 at point 99 has f = 5.02888755659899 at x = [-0.57266596 -2.83422855 -1.92191158]
+Function eval 100 at point 100 has f = 5.02746972039841 at x = [-0.53368135 -2.82728547 -1.86029482]
+Did a total of 1 run(s)
+
+****** DFO-LS Results ******
+Solution xmin = [-0.54970792 -2.82171066 -1.88045589]
+Residual vector = [0.54797152 0.5190296  0.43468673 0.44590679 0.44408705 0.43911623
+ 0.42955198 0.44437934 0.39664735 0.45391424 0.42206228 0.48387385
+ 0.51320101 0.38840144 0.49492515 0.50430263 0.4976156  0.43432477
+ 0.49125857 0.41775416 0.8653694 ]
+Objective value f(xmin) = 5.019591951
+Needed 100 objective evaluations (at 100 points)
+Approximate Jacobian = [[-1.25708704e-01 -1.20884133e-03  1.26143692e-01]
+ [-3.52842347e-02  7.52629400e-03  1.40225975e-01]
+ [-1.88317945e-01  6.88914137e-03  1.32906526e-01]
+ [-2.18394328e-01 -6.99932289e-03  1.52463521e-01]
+ [-5.23526656e-02  1.56894222e-03  1.58735346e-01]
+ [-3.19666891e-01 -5.25105602e-04  1.88703362e-01]
+ [-1.87475237e-01 -1.83023652e-03  2.13457943e-01]
+ [-1.98699022e-01 -7.76037159e-04  1.80767374e-01]
+ [-1.92624203e-01  1.27370744e-02  1.72478362e-01]
+ [-3.45663698e-01  1.03448337e-03  2.58884675e-01]
+ [-1.60618160e-01  6.98592235e-03  1.89960765e-01]
+ [-2.12859410e-01  1.41474821e-02  1.54636897e-01]
+ [-3.25127836e-01  5.25372194e-03  2.20082309e-01]
+ [-2.45337752e-01 -2.31446694e-03  1.87674534e-01]
+ [-1.51973318e-01  3.56696149e-03  1.72332989e-01]
+ [-1.91211463e-01  1.98730382e-03  1.93829850e-01]
+ [-7.97623713e-02  6.82874776e-03  1.38614447e-01]
+ [-1.91088717e-01  1.03494335e-03  1.75743414e-01]
+ [-1.12225187e-01 -1.62634022e-03  2.04453977e-01]
+ [-2.17635386e-01  7.40277738e-03  1.73408167e-01]
+ [ 1.97190908e+00 -6.57636090e-03 -1.98878060e+00]]
+Diagnostic information available; check self.diagnostic_info
+Exit flag = 1
+Warning (max evals): Objective has been called MAXFUN times
+****************************
+
+
+DFO-LS finished at 2020-03-10 14:58:31
+Took 19.5602 seconds (wall time)
+Saved diagnostic info to: raw_results/3param_reg4_fista_fixed_niters_200_diagnostic_info.pkl
+Saved evals to: raw_results/3param_reg4_fista_fixed_niters_200_evals.pkl
+Saved training data (true images) to: raw_results/3param_reg4_fista_fixed_niters_200_true_imgs.npy
+Saved training data (noisy images) to: raw_results/3param_reg4_fista_fixed_niters_200_noisy_imgs.npy
+Saved training data (final reconstructions) to: raw_results/3param_reg4_fista_fixed_niters_200_recons.npy
+
+Done
+

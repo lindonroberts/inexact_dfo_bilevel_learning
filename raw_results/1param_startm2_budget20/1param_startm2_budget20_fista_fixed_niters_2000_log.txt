@@ -1,0 +1,73 @@
+Running problem type denoising1d_1param
+Setting random seed = 0
+Training data: 10 images (size 256) with noise level 0.1
+Using lower-level solver fista
+Running DFO-LS with fixed accuracy (2000 iterations of lower-level solver per image)
+
+Starting DFO-LS at 2020-05-20 11:32:32:
+x0 = [-2.]
+xmin = [-7.]
+xmax = [7.]
+Budget = 20 evaluations
+Rhoend = 1e-06
+
+Function eval 1 at point 1 has f = 19.325199450996 at x = [-2.]
+Initialising (coordinate directions)
+Function eval 2 at point 2 has f = 1.71350094441657 at x = [-0.6]
+Beginning main loop
+New rho = 0.01 after 2 function evaluations
+Function eval 3 at point 3 has f = 1.70719490549224 at x = [-0.01644195]
+Function eval 4 at point 4 has f = 1.39743080088898 at x = [-0.22317127]
+Function eval 5 at point 5 has f = 11.3894845564221 at x = [0.60374601]
+Function eval 6 at point 6 has f = 1.81422346306847 at x = [-0.63662991]
+Function eval 7 at point 7 has f = 1.55977149265088 at x = [-0.08317127]
+New rho = 0.001 after 7 function evaluations
+Function eval 8 at point 8 has f = 1.37289245499784 at x = [-0.29317127]
+Function eval 9 at point 9 has f = 1.37865945054976 at x = [-0.36317127]
+Function eval 10 at point 10 has f = 1.38116947992977 at x = [-0.25817127]
+Function eval 11 at point 11 has f = 1.37166709064947 at x = [-0.30717127]
+Function eval 12 at point 12 has f = 1.3716052558264 at x = [-0.32117127]
+Function eval 13 at point 13 has f = 1.37272056514628 at x = [-0.33517127]
+New rho = 0.0001 after 13 function evaluations
+Function eval 14 at point 14 has f = 1.3714905044786 at x = [-0.31417127]
+Function eval 15 at point 15 has f = 1.37166709064885 at x = [-0.30717127]
+Function eval 16 at point 16 has f = 1.37151134516599 at x = [-0.31767127]
+Function eval 17 at point 17 has f = 1.37150256556825 at x = [-0.31277127]
+New rho = 1e-05 after 17 function evaluations
+Function eval 18 at point 18 has f = 1.37148884111913 at x = [-0.31487127]
+Function eval 19 at point 19 has f = 1.37149009150014 at x = [-0.31557127]
+Function eval 20 at point 20 has f = 1.37148930869693 at x = [-0.31452127]
+Did a total of 1 run(s)
+
+****** DFO-LS Results ******
+Solution xmin = [-0.31487127]
+Residual vector = [0.33560299 0.33874258 0.36238794 0.46365094 0.45801562 0.39292903
+ 0.29365465 0.30008451 0.37194483 0.34498908]
+Objective value f(xmin) = 1.371488841
+Needed 20 objective evaluations (at 20 points)
+Approximate Jacobian = [[-0.21728209]
+ [-0.00305023]
+ [ 0.01668968]
+ [-0.00632964]
+ [ 0.0410993 ]
+ [ 0.02969665]
+ [-0.00499163]
+ [ 0.06391511]
+ [-0.00147846]
+ [ 0.06910653]]
+Diagnostic information available; check self.diagnostic_info
+Exit flag = 1
+Warning (max evals): Objective has been called MAXFUN times
+****************************
+
+
+DFO-LS finished at 2020-05-20 11:33:31
+Took 59.7929 seconds (wall time)
+Saved diagnostic info to: raw_results/1param_startm2_budget20/1param_startm2_budget20_fista_fixed_niters_2000_diagnostic_info.pkl
+Saved evals to: raw_results/1param_startm2_budget20/1param_startm2_budget20_fista_fixed_niters_2000_evals.pkl
+Saved training data (true images) to: raw_results/1param_startm2_budget20/1param_startm2_budget20_fista_fixed_niters_2000_true_imgs.npy
+Saved training data (noisy images) to: raw_results/1param_startm2_budget20/1param_startm2_budget20_fista_fixed_niters_2000_noisy_imgs.npy
+Saved training data (final reconstructions) to: raw_results/1param_startm2_budget20/1param_startm2_budget20_fista_fixed_niters_2000_recons.npy
+
+Done
+
