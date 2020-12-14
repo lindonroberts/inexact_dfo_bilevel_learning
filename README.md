@@ -8,11 +8,19 @@ Accepted to Journal of Mathematical Imaging and Vision. [arXiv preprint](https:/
 The goal of [1] is to efficiently solve bilevel learning problems in image analysis. The numerical results in [1] focus 
 on learning regularization parameters for image denoising, and learning MRI sampling patterns.
 
+This code can also be used for hyperparameter tuning in machine learning - see [2] for details.
+
 The most important component of this repository is a dynamic accuracy version of the derivative-free 
-optimization solver [DFO-LS](https://github.com/numericalalgorithmsgroup/dfols/) [2].
+optimization solver [DFO-LS](https://github.com/numericalalgorithmsgroup/dfols/) from [3].
 This new solver is located in [src/solvers/dfols](src/solvers/dfols), and is based on version 1.1.1 of DFO-LS.
 
 All code here is released under the GNU GPL, except for the Kodak image files (see [kodak_dataset/README.txt](kodak_dataset/README.txt) for details).
+
+As an example, below shows the result of calibrating regularization parameters for a 2D image denoising dataset (see Figure 13 of [1]).
+
+<p align="center">
+<img src="https://github.com/lindonroberts/inexact_dfo_bilevel_learning/blob/main/2d_denoising_example.png" width="80%" border="0"/>
+</p>
 
 ## Getting started
 
@@ -52,5 +60,8 @@ The file [figures/paper_references.txt](figures/paper_references.txt) indicates 
 [1] Ehrhardt, M. J., & Roberts, L. (2020). Inexact Derivative-Free Optimization for Bilevel Learning. 
 Accepted to Journal of Mathematical Imaging and Vision. [arXiv preprint](https://arxiv.org/abs/2006.12674)
 
-[2] Cartis, C., Fiala, J., Marteau, B., & Roberts, L., Improving the Flexibility and Robustness of Model-Based Derivative-Free Optimization Solvers, 
+[2] Ehrhardt, M. M., & Roberts, L. (2020). Efficient Hyperparameter Tuning with Dynamic Accuracy Derivative-Free Optimization.
+12th OPT Workshop on Optimization for Machine Learning at NeurIPS 2020. [Workshop website](http://www.opt-ml.org/papers.html) and [arXiv preprint](https://arxiv.org/abs/2011.03151)
+
+[3] Cartis, C., Fiala, J., Marteau, B., & Roberts, L., Improving the Flexibility and Robustness of Model-Based Derivative-Free Optimization Solvers, 
 ACM Transactions on Mathematical Software, 45:3 (2019), pp. 32:1-32:41. [Published paper](https://doi.org/10.1145/3338517) and [arXiv preprint](https://arxiv.org/abs/1804.00154)
