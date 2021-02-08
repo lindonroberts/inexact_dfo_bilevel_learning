@@ -3,7 +3,7 @@
 This repository contains all the code required to reproduce the results in the paper [1]. 
 
 [1] Ehrhardt, M. J., & Roberts, L. (2020). Inexact Derivative-Free Optimization for Bilevel Learning. 
-Accepted to Journal of Mathematical Imaging and Vision. [arXiv preprint](https://arxiv.org/abs/2006.12674)
+Accepted to Journal of Mathematical Imaging and Vision. [Journal](https://link.springer.com/article/10.1007/s10851-021-01020-8) and [arXiv preprint](https://arxiv.org/abs/2006.12674)
 
 The goal of [1] is to efficiently solve bilevel learning problems in image analysis. The numerical results in [1] focus 
 on learning regularization parameters for image denoising, and learning MRI sampling patterns.
@@ -58,7 +58,7 @@ The file [figures/paper_references.txt](figures/paper_references.txt) indicates 
 
 ## References
 [1] Ehrhardt, M. J., & Roberts, L. (2020). Inexact Derivative-Free Optimization for Bilevel Learning. 
-Accepted to Journal of Mathematical Imaging and Vision. [arXiv preprint](https://arxiv.org/abs/2006.12674)
+Accepted to Journal of Mathematical Imaging and Vision. [Journal](https://link.springer.com/article/10.1007/s10851-021-01020-8) and [arXiv preprint](https://arxiv.org/abs/2006.12674)
 
 [2] Ehrhardt, M. M., & Roberts, L. (2020). Efficient Hyperparameter Tuning with Dynamic Accuracy Derivative-Free Optimization.
 12th OPT Workshop on Optimization for Machine Learning at NeurIPS 2020. [Workshop website](http://www.opt-ml.org/papers.html) and [arXiv preprint](https://arxiv.org/abs/2011.03151)
