@@ -57,10 +57,9 @@ executed. This repository contains the figures as they appear in [1].
 The file [figures/paper_references.txt](figures/paper_references.txt) indicates the file names of each figure in [1]. 
 
 ## References
-[1] Ehrhardt, M. J., & Roberts, L. (2020). Inexact Derivative-Free Optimization for Bilevel Learning. 
-Accepted to Journal of Mathematical Imaging and Vision. [Journal](https://link.springer.com/article/10.1007/s10851-021-01020-8) and [arXiv preprint](https://arxiv.org/abs/2006.12674)
+[1] Ehrhardt, M. J., & Roberts, L. (2021). Inexact Derivative-Free Optimization for Bilevel Learning. Journal of Mathematical Imaging and Vision, https://doi.org/10.1007/s10851-021-01020-8. [Journal](https://link.springer.com/article/10.1007/s10851-021-01020-8) and [arXiv preprint](https://arxiv.org/abs/2006.12674)
 
-[2] Ehrhardt, M. M., & Roberts, L. (2020). Efficient Hyperparameter Tuning with Dynamic Accuracy Derivative-Free Optimization.
+[2] Ehrhardt, M. J., & Roberts, L. (2020). Efficient Hyperparameter Tuning with Dynamic Accuracy Derivative-Free Optimization.
 12th OPT Workshop on Optimization for Machine Learning at NeurIPS 2020. [Workshop website](http://www.opt-ml.org/papers.html) and [arXiv preprint](https://arxiv.org/abs/2011.03151)
 
 [3] Cartis, C., Fiala, J., Marteau, B., & Roberts, L., Improving the Flexibility and Robustness of Model-Based Derivative-Free Optimization Solvers, 
